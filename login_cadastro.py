@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 import json
+import hashlib
 
 
 def carregar_pessoas():
@@ -75,7 +76,8 @@ def pedir_senha():
             print('Minimo 6 caracters!')
             continue
         else:
-            return senha
+            hash_senha =  hash_senha = hashlib.sha256(senha.encode()).hexdigest()
+            return hash_senha
     
 
 def pedir_cpf():
@@ -159,7 +161,8 @@ def login():
     if pessoa_encontrada:
         while True:
             senha = input("Senha: ")
-            if senha == pessoa_encontrada['senha']:
+            hash_senha = hashlib.sha256(senha.encode()).hexdigest()
+            if hash_senha == pessoa_encontrada['senha']:
                 print("✅ Acesso liberado.")
                 return pessoa_encontrada
             else:
