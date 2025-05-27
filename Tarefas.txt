@@ -1,0 +1,24 @@
+- Login/Cadastro usuarios ---------FEITO------------- # Alterações no futuro (melhorias)
+
+
+- Sistema de armazernar livros --------- [LOGIN - admin,Sendo autorizado vai adicionar,editar ou excluir.] FALTA COLOCAR PREÇO NOS LIVROS!! ++ ---------FEITO-------------
+
+
+    ° Sistema de pesquisar livros [autor ou titulo do livro] ----------- [Usuario - vai puxar da lista.json que o admin criou, podendo só visualiazar/comprar] ---------FEITO-------------
+
+
+        ° Sistema de exibir informaçoes do livro -------- [Depois da pesquisar o livro, e selecionado, ira aparecer as informaçoes do livro selecionado.] ---------FEITO-------------
+
+
+            ° Sistema de comprar livros ----------[Depois das informaçoes vai ter a opção de comprar o livro] ---------FEITO-------------
+
+
+- Sistema de mandar mensagem pro suporte ---------FEITO-------------
+
+- Sistema de exibir o historico de comprar  ---------FEITO-------------
+
+- Login de admin ---------FEITO-------------
+
+ ---------FEITO------------- ---------FEITO------------- ---------FEITO------------- ---------FEITO------------- ---------FEITO-------------
+
+ Possiveis melhorias: [Separar por pastas, Quando um usuario compra um livro, e o admin edita o nome desse livro. Nao Atualiza no banco de dados do usuario. ]
